@@ -1,0 +1,112 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.12.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:compileKotlin
+> Task :app:processResources NO-SOURCE
+> Task :app:processTestResources NO-SOURCE
+> Task :wrapper
+> Task :app:compileJava NO-SOURCE
+> Task :app:classes UP-TO-DATE
+> Task :app:jar
+
+> Task :app:run
+Invalid: Judul harus terdiri dari 3-80 karakter setelah trim
+Open: [Kotlin, Testing]
+Total menit: 105
+HIGH: [Kotlin, Testing]
+Status awal: TODO; status salinan: DONE
+Catatan: Baca null safety
+
+> Task :app:runBasics
+[Kotlin, Testing]
+105
+Testing
+Tugas terbuka tersingkat: Database
+Tanpa catatan
+Tanpa catatan
+Baca modul
+
+> Task :app:compileTestKotlin
+> Task :app:compileTestJava NO-SOURCE
+> Task :app:testClasses UP-TO-DATE
+
+> Task :app:test
+
+TaskFactoryTest > markDoneCreatesANewInstance PASSED
+
+TaskFactoryTest > markInProgressCreatesANewInstance PASSED
+
+TaskFactoryTest > invalidTitleProducesInvalidResult PASSED
+
+TaskFactoryTest > blankTagIsRejected PASSED
+
+TaskFactoryTest > tagsAreTrimmedAndDeduplicatedWithoutMutatingInput PASSED
+
+TaskFactoryTest > blankDescriptionBecomesNull PASSED
+
+TaskFactoryTest > nullDescriptionStaysNull PASSED
+
+TaskFactoryTest > nonblankDescriptionIsTrimmed PASSED
+
+TaskFactoryTest > validTaskIsCreatedWithTrimmedTitle PASSED
+
+TaskQueriesTest > searchMatchesNullableDescription PASSED
+
+TaskQueriesTest > searchWithNoMatchReturnsEmptyList PASSED
+
+TaskQueriesTest > pendingHighTitlesExcludesDoneAndSorts PASSED
+
+TaskQueriesTest > blankSearchReturnsAllTasks PASSED
+
+TaskQueriesTest > queryFunctionsDoNotMutateInput PASSED
+
+TaskQueriesTest > totalOpenMinutesExcludesCompletedTasks PASSED
+
+TaskQueriesTest > genericFindByIdFindsTaskOrNull PASSED
+
+TaskQueriesTest > displayNoteHandlesNullBlankAndText PASSED
+
+TaskQueriesTest > openTasksExcludesDone PASSED
+
+TaskQueriesTest > searchMatchesTags PASSED
+
+TaskQueriesTest > genericFindByIdWorksForAnotherIdentifiableType PASSED
+
+TaskQueriesTest > priorityQueryFiltersAndSorts PASSED
+
+TaskQueriesTest > searchMatchesTitleIgnoringCase PASSED
+
+TaskQueriesTest > emptyInputIsHandled PASSED
+
+TaskQueriesTest > groupByStatusUsesActualStatuses PASSED
+
+TaskValidatorTest > threeCharacterTitlePasses PASSED
+
+TaskValidatorTest > eightyCharacterTitlePasses PASSED
+
+TaskValidatorTest > blankTitleFails PASSED
+
+TaskValidatorTest > blankTagFails PASSED
+
+TaskValidatorTest > titleLengthIsMeasuredAfterTrim PASSED
+
+TaskValidatorTest > twoCharacterTitleFails PASSED
+
+TaskValidatorTest > validInputHasNoErrors PASSED
+
+TaskValidatorTest > fourHundredEightyMinutesPasses PASSED
+
+TaskValidatorTest > eightyOneCharacterTitleFails PASSED
+
+TaskValidatorTest > fourMinutesFails PASSED
+
+TaskValidatorTest > fiveMinutesPasses PASSED
+
+TaskValidatorTest > errorsAreAccumulated PASSED
+
+TaskValidatorTest > fourHundredEightyOneMinutesFails PASSED
+
+> Task :app:testDebugUnitTest
+
+BUILD SUCCESSFUL in 1m 31s
+7 actionable tasks: 7 executed

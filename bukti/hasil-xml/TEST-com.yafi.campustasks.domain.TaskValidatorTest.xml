@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.yafi.campustasks.domain.TaskValidatorTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-10-11T03:09:33" hostname="6a8bdd7ff442" time="0.003">
+  <properties/>
+  <testcase name="threeCharacterTitlePasses" classname="com.yafi.campustasks.domain.TaskValidatorTest" time="0.001"/>
+  <testcase name="eightyCharacterTitlePasses" classname="com.yafi.campustasks.domain.TaskValidatorTest" time="0.0"/>
+  <testcase name="blankTitleFails" classname="com.yafi.campustasks.domain.TaskValidatorTest" time="0.0"/>
+  <testcase name="blankTagFails" classname="com.yafi.campustasks.domain.TaskValidatorTest" time="0.001"/>
+  <testcase name="titleLengthIsMeasuredAfterTrim" classname="com.yafi.campustasks.domain.TaskValidatorTest" time="0.0"/>
+  <testcase name="twoCharacterTitleFails" classname="com.yafi.campustasks.domain.TaskValidatorTest" time="0.0"/>
+  <testcase name="validInputHasNoErrors" classname="com.yafi.campustasks.domain.TaskValidatorTest" time="0.0"/>
+  <testcase name="fourHundredEightyMinutesPasses" classname="com.yafi.campustasks.domain.TaskValidatorTest" time="0.0"/>
+  <testcase name="eightyOneCharacterTitleFails" classname="com.yafi.campustasks.domain.TaskValidatorTest" time="0.001"/>
+  <testcase name="fourMinutesFails" classname="com.yafi.campustasks.domain.TaskValidatorTest" time="0.0"/>
+  <testcase name="fiveMinutesPasses" classname="com.yafi.campustasks.domain.TaskValidatorTest" time="0.0"/>
+  <testcase name="errorsAreAccumulated" classname="com.yafi.campustasks.domain.TaskValidatorTest" time="0.0"/>
+  <testcase name="fourHundredEightyOneMinutesFails" classname="com.yafi.campustasks.domain.TaskValidatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

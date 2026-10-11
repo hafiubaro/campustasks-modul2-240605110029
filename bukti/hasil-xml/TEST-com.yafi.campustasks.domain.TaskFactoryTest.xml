@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.yafi.campustasks.domain.TaskFactoryTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-11T03:09:33" hostname="6a8bdd7ff442" time="0.055">
+  <properties/>
+  <testcase name="markDoneCreatesANewInstance" classname="com.yafi.campustasks.domain.TaskFactoryTest" time="0.028"/>
+  <testcase name="markInProgressCreatesANewInstance" classname="com.yafi.campustasks.domain.TaskFactoryTest" time="0.001"/>
+  <testcase name="invalidTitleProducesInvalidResult" classname="com.yafi.campustasks.domain.TaskFactoryTest" time="0.019"/>
+  <testcase name="blankTagIsRejected" classname="com.yafi.campustasks.domain.TaskFactoryTest" time="0.0"/>
+  <testcase name="tagsAreTrimmedAndDeduplicatedWithoutMutatingInput" classname="com.yafi.campustasks.domain.TaskFactoryTest" time="0.006"/>
+  <testcase name="blankDescriptionBecomesNull" classname="com.yafi.campustasks.domain.TaskFactoryTest" time="0.0"/>
+  <testcase name="nullDescriptionStaysNull" classname="com.yafi.campustasks.domain.TaskFactoryTest" time="0.0"/>
+  <testcase name="nonblankDescriptionIsTrimmed" classname="com.yafi.campustasks.domain.TaskFactoryTest" time="0.0"/>
+  <testcase name="validTaskIsCreatedWithTrimmedTitle" classname="com.yafi.campustasks.domain.TaskFactoryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
